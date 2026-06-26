@@ -41,7 +41,7 @@
 //     color = "red";
 // }
 // console.log(color);
-                                                            // baki hia comit karna 😂
+
 // let age = 14
 // if(age >= 18){
 //     console.log("yes you can do vote");
@@ -49,15 +49,31 @@
 // else {
 //     console.log("sorry you can do not vote");
 // }
-                                                            // baki hia comit karna 😂
 
 
-let num = 1101;
-if(num % 2 === 0){
-    console.log( num, " is even");
+
+// let num = 1101;
+// if(num % 2 === 0){
+//     console.log( num, " is even");
+// }
+// else{
+//     console.log(num, "is odd");
+// }
+
+
+let mode = "darkest";
+let color;
+
+if(mode === "darkest"){
+    color = "dark black";
 }
-else{
-    console.log(num, "is odd");
+else if(mode === "light"){
+    color = "aqua";
 }
-                                                            // baki hia comit karna 😂
-                                                            
+else if(mode === "z-black"){
+    color = "normal black";
+}                          
+else {
+    color ="red";
+}               
+console.log(color);
