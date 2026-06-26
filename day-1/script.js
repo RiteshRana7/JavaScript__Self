@@ -29,16 +29,35 @@
 // }
 // console.log(color);
 
-// 
-   ////////////////////////////////
 
-let mode = "dark";
-let color;
 
-if(mode === "dark"){
-    color = "pink"; 
+// let mode = "dark";
+// let color;
+
+// if(mode === "dark"){
+//     color = "pink"; 
+// }
+// else{
+//     color = "red";
+// }
+// console.log(color);
+                                                            // baki hia comit karna 😂
+let age = 14
+if(age >= 18){
+    console.log("yes you can do vote");
 }
-else{
-    color = "red";
+else {
+    console.log("sorry you can do not vote");
 }
-console.log(color);
+                                                            // baki hia comit karna 😂
+
+
+// let num = 1101;
+// if(num % 2 === 0){
+//     console.log( num, " is even");
+// }
+// else{
+//     console.log(num, "is odd");
+// }
+                                                            // baki hia comit karna 😂
+
