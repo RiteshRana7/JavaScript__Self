@@ -42,22 +42,22 @@
 // }
 // console.log(color);
                                                             // baki hia comit karna 😂
-let age = 14
-if(age >= 18){
-    console.log("yes you can do vote");
-}
-else {
-    console.log("sorry you can do not vote");
-}
-                                                            // baki hia comit karna 😂
-
-
-// let num = 1101;
-// if(num % 2 === 0){
-//     console.log( num, " is even");
+// let age = 14
+// if(age >= 18){
+//     console.log("yes you can do vote");
 // }
-// else{
-//     console.log(num, "is odd");
+// else {
+//     console.log("sorry you can do not vote");
 // }
                                                             // baki hia comit karna 😂
 
+
+let num = 1101;
+if(num % 2 === 0){
+    console.log( num, " is even");
+}
+else{
+    console.log(num, "is odd");
+}
+                                                            // baki hia comit karna 😂
+                                                            
