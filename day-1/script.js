@@ -61,19 +61,33 @@
 // }
 
 
-let mode = "darkest";
-let color;
+// let mode = "darkest";
+// let color;
 
-if(mode === "darkest"){
-    color = "dark black";
+// if(mode === "darkest"){
+//     color = "dark black";
+// }
+// else if(mode === "light"){
+//     color = "aqua";
+// }
+// else if(mode === "z-black"){
+//     color = "normal black";
+// }                          
+// else {
+//     color ="red";
+// }               
+// console.log(color);
+
+// let age = 12;
+// let result = age >= 18 ? "adult" : "not adult";
+// console.log(result);
+
+
+let num = prompt ("Enter your number");
+
+if(num % 5 ===0){
+    console. log( num, "is a multiplay of 5");
 }
-else if(mode === "light"){
-    color = "aqua";
+else{
+    console.log(num, "is a not multiplay of 5");
 }
-else if(mode === "z-black"){
-    color = "normal black";
-}                          
-else {
-    color ="red";
-}               
-console.log(color);
