@@ -56,11 +56,22 @@
 
 
 
-for(let i = 1; i <= 60; i++){
-    if(i % 2 === 0){
-        console.log("even number", i);
-    }
-    else{
-        console.log("odd number",i);
-    }
+// for(let i = 1; i <= 60; i++){
+//     if(i % 2 === 0){
+//         console.log("even number", i);
+//     }
+//     else{
+//         console.log("odd number",i);
+//     }
+// }
+
+    // practice question .................4
+
+let gamenum = 25;
+
+let usernum = prompt("Enter your number");
+
+while(usernum != gamenum){
+   usernum = prompt("you enter wrong number, try again");
 }
+console.log("Congratulations");
