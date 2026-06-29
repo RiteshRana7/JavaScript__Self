@@ -45,12 +45,22 @@
 
 //   practice question.......................
 
-for(let num = 1; num <= 100; num++){
-    if(num % 2 === 0 ){
-        console.log("num=",num);
+// for(let num = 1; num <= 100; num++){
+//     if(num % 2 === 0 ){
+//         console.log("num=",num);
+//     }
+//     else{
+
+//     }
+// }
+
+
+
+for(let i = 1; i <= 60; i++){
+    if(i % 2 === 0){
+        console.log("even number", i);
     }
     else{
-        
+        console.log("odd number",i);
     }
 }
-
