@@ -37,11 +37,20 @@
 
 // for-of-loop.........
 
-let str = "tonyStark"
+// let str = "tonyStark"
  
-for(let i of str){
-    console.log("i",i);
+// for(let i of str){
+//     console.log("i",i);
+// }
+
+//   practice question.......................
+
+for(let num = 1; num <= 100; num++){
+    if(num % 2 === 0 ){
+        console.log("num=",num);
+    }
+    else{
+        
+    }
 }
-
-
 
