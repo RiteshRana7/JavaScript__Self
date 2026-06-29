@@ -27,12 +27,21 @@
 
 // do while loop .............. ..3
  
-let i = 1;
+// let i = 1;
 
-do{
+// do{
+//     console.log("i",i);
+//     i++;
+// }
+// while(i <= 10);
+
+// for-of-loop.........
+
+let str = "tonyStark"
+ 
+for(let i of str){
     console.log("i",i);
-    i++;
 }
-while(i <= 10);
+
 
 
