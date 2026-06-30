@@ -67,11 +67,20 @@
 
     // practice question .................4
 
-let gamenum = 25;
+// let gamenum = 25;
 
-let usernum = prompt("Enter your number");
+// let usernum = prompt("Enter your number");
+
+// while(usernum != gamenum){
+//    usernum = prompt("you enter wrong number, try again");
+// }
+// console.log("Congratulations");
+
+
+let  gamenum = 7;
+let  usernum = prompt("Enter your number");
 
 while(usernum != gamenum){
-   usernum = prompt("you enter wrong number, try again");
+    usernum = prompt("sorry your number wront try again");
 }
-console.log("Congratulations");
+console.log("congratulations your number is right");
