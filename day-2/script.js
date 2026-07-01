@@ -77,10 +77,14 @@
 // console.log("Congratulations");
 
 
-let  gamenum = 7;
-let  usernum = prompt("Enter your number");
+// let  gamenum = 7;
+// let  usernum = prompt("Enter your number");
 
-while(usernum != gamenum){
-    usernum = prompt("sorry your number wront try again");
-}
-console.log("congratulations your number is right");
+// while(usernum != gamenum){
+//     usernum = prompt("sorry your number wront try again");
+// }
+// console.log("congratulations your number is right");
+
+// Strings.............................
+
+
