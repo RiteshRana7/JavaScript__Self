@@ -13,7 +13,15 @@
 
 // console.log("the coust of",obj.item,"is",obj.price);
 
-let name = "Khushi Rana";
-let age = 19;
+// let name = "Khushi Rana";
+// let age = 19;
 
-console.log(`her name is ${name} and she is ${age} years old`);
+// console.log(`her name is ${name} and she is ${age} years old`);
+
+// praxtice to upper case or lowwer case .............
+
+let str = "RiteshRana";
+
+
+ console.log(str.toUpperCase());
+console.log(str.toLowerCase());
