@@ -58,13 +58,21 @@
 // replace method in string ..............
 
 
-let str = "Ritesh";
+// let str = "Ritesh";
 
-console.log(str.replace("tesh", "shu"));
+// console.log(str.replace("tesh", "shu"));
 
-// q2.......................
+// // q2.......................
 
-let name = "Khushi";
+// let name = "Khushi";
 
-console.log(name.replace("ushi", "Shu"));
+// console.log(name.replace("ushi", "Shu"));
 
+
+// practice question all in qno..1 
+
+let fullname = prompt("Enter your fullName");
+
+let username = "@" + fullname + fullname.length;
+
+console.log(username);
