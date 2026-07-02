@@ -49,8 +49,22 @@
 // console.log(result);
 
 
-let firstname = "Khushi";
-let lastname =  "Rana";
+// let firstname = "Khushi";
+// let lastname =  "Rana";
 
-let fullname = firstname.concat(lastname);
-console.log(fullname);
+// let fullname = firstname.concat(lastname);
+// console.log(fullname);
+
+// replace method in string ..............
+
+
+let str = "Ritesh";
+
+console.log(str.replace("tesh", "shu"));
+
+// q2.......................
+
+let name = "Khushi";
+
+console.log(name.replace("ushi", "Shu"));
+
