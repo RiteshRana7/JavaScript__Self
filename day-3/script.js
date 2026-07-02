@@ -30,11 +30,27 @@
 // practice question 5...........
 
 
-let name = "KhushiRana";
+// let name = "KhushiRana";
 
-console.log(name.slice(0,5));
-console.log(name.slice(2));
+// console.log(name.slice(0,5));
+// console.log(name.slice(2));
 
-let num = "0123456789";
+// let num = "0123456789";
 
-console.log(num.slice(2,6));
+// console.log(num.slice(2,6));
+
+//  practice question string in concot ......
+
+
+// let str1 = "Ritesh";
+// let str2 = "Rana";
+
+// let result = str1.concat(str2);
+// console.log(result);
+
+
+let firstname = "Khushi";
+let lastname =  "Rana";
+
+let fullname = firstname.concat(lastname);
+console.log(fullname);
