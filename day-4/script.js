@@ -15,17 +15,31 @@
 
 
 // loop in array.....
-let name = ["Ritesh","Khushi", "nitin", "Kunal", "Mauuu"];
+// let name = ["Ritesh","Khushi", "nitin", "Kunal", "Mauuu"];
 
-for(let i = 0; i < name.length; i++){
-    console.log(name[i]);
+// for(let i = 0; i < name.length; i++){
+//     console.log(name[i]);
+// }
+
+// q2
+
+// let marks = [59,69,75,86,48,58,79,59,76,];
+
+// for(let i = 0; i < marks.length; i++){
+//     console.log(marks[i]);
+// }
+
+//  array in for of  lopp ...........
+
+// let name = ["Rahul", "Rishu", "Kabir", "Monu", "Nayna"];
+
+// for(let i = 0; i<name.length ; i++){
+//     console.log(name[i]);
+// }
+
+
+let name = ["Rahul", "Rishu", "Kabir", "Monu", "Nayna"];
+
+for(let hero of name){
+    console.log(hero);
 }
-
-q2
-
-let marks = [59,69,75,86,48,58,79,59,76,];
-
-for(let i = 0; i < marks.length; i++){
-    console.log(marks[i]);
-}
-
