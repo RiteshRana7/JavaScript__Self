@@ -71,8 +71,14 @@
 
 // practice question all in qno..1 
 
-let fullname = prompt("Enter your fullName");
+// let fullname = prompt("Enter your fullName");
 
-let username = "@" + fullname + fullname.length;
+// let username = "@" + fullname + fullname.length;
+
+// console.log(username);
+
+let fullName = prompt("Enter your name");
+
+let username = "@" + fullName + fullName.length;
 
 console.log(username);
