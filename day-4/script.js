@@ -57,11 +57,20 @@
 
 // practice questuion in Array............
 
-let marks =  [85,97,44,37,76,60];
-let sum = 0;
+// let marks =  [85,97,44,37,76,60];
+// let sum = 0;
+// for(let val of marks){
+//     sum += val;
+    
+// }
+// let avrage = sum / marks.length;
+// console.log(avrage);
+
+let marks = [19,22,25,36,15,];
+sum = 0;
+
 for(let val of marks){
     sum += val;
-    
 }
-let avrage = sum / marks.length;
-console.log(avrage);
+let avg = sum /= marks.length;
+console.log(`average marks of the class ${avg}`);
