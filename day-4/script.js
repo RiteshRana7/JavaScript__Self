@@ -66,11 +66,30 @@
 // let avrage = sum / marks.length;
 // console.log(avrage);
 
-let marks = [19,22,25,36,15,];
-sum = 0;
+// let marks = [19,22,25,36,15,];
+// sum = 0;
 
-for(let val of marks){
-    sum += val;
+// for(let val of marks){
+//     sum += val;
+// }
+// let avg = sum /= marks.length;
+// console.log(`average marks of the class ${avg}`);
+
+
+
+// let items = [250,645,300,900,50];
+
+// for(let i = 0; i< items.length; i++){
+//     let offer = items[i] / 10;
+//     items[i] -= offer;
+
+// }
+// console.log(items);
+
+let num = [50,30,55,60,65];
+
+for(let i = 0; i< num.length;i++){
+    let off = num[i] / 10;
+    num[i] -= off;
 }
-let avg = sum /= marks.length;
-console.log(`average marks of the class ${avg}`);
+console.log(num);
