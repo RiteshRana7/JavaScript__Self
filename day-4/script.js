@@ -86,10 +86,15 @@
 // }
 // console.log(items);
 
-let num = [50,30,55,60,65];
+// let num = [50,30,55,60,65];
 
-for(let i = 0; i< num.length;i++){
-    let off = num[i] / 10;
-    num[i] -= off;
-}
-console.log(num);
+// for(let i = 0; i< num.length;i++){
+//     let off = num[i] / 10;
+//     num[i] -= off;
+// }
+// console.log(num);
+
+let food = ["Apple", "Mango", "litchi", "potato", "totamo"];
+
+ food.push("orange", "Grapes", "Watermalain");
+ console.log(food);
