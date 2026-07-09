@@ -94,7 +94,25 @@
 // }
 // console.log(num);
 
-let food = ["Apple", "Mango", "litchi", "potato", "totamo"];
+// let food = ["Apple", "Mango", "litchi", "potato", "totamo"];
 
- food.push("orange", "Grapes", "Watermalain");
- console.log(food);
+//  food.push("orange", "Grapes", "Watermalain");
+//  console.log(food);
+
+
+// let num = [100,200,300,400,500,600];
+
+// num.push(700,800,900,1000);
+
+// console.log(num);
+
+// let name = ["Ritesh","Rahul","Vishal","Sohan"];
+// name.push("Rajesh","Akhil", "Alkesh","Sunanda");
+// console.log(name);
+
+let name = ["Rahul", "Rishu", "Karan"];
+name.push ("Rakhi", "Saswat");
+
+console.log(name);
+
+
