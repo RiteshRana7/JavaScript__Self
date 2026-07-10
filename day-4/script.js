@@ -44,7 +44,10 @@
 //     console.log(hero);
 // }
 
-
+let name = ["Ritik", "Manoj", "Sohan", "krishna"];
+ 
+name[0] = "Roshan";
+console.log(name);
 // let age = [16,18,19,22,25];
 
 // for(let i = 0; i <age.length ;i++){
@@ -110,9 +113,9 @@
 // name.push("Rajesh","Akhil", "Alkesh","Sunanda");
 // console.log(name);
 
-let name = ["Rahul", "Rishu", "Karan"];
-name.push ("Rakhi", "Saswat");
+// let name = ["Rahul", "Rishu", "Karan"];
+// name.push ("Rakhi", "Saswat");
 
-console.log(name);
+// console.log(name);
 
 
