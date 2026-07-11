@@ -49,3 +49,7 @@ let name = ["Rahul","nitin","Munna","Rohit"];
 val = name.slice(1,4);
 console.log(name);
 console.log(val);
+let name = ["Rahul","nitin","Munna","Rohit","Raju","mohan"];
+val = name.slice(1,4);
+console.log(name);
+console.log(val);
