@@ -49,8 +49,14 @@
 // console.log(name);
 // console.log(val);
 
-let fruits = ["Manog","litchi","Graps","Orange"];
-let price = [60,70,100,40];
-let fruitsPrice = fruits.concat(price);
+// let fruits = ["Manog","litchi","Graps","Orange"];
+// let price = [60,70,100,40];
+// let fruitsPrice = fruits.concat(price);
 
-console.log(fruitsPrice);
+// console.log(fruitsPrice);
+
+let God = ["Ram","Mahadev","Laxman","Hanuman"];
+let hero = ["Thor","Spiderman","Krish"];
+let name =["Ritesh","Vishal","Nitin","Ganesh"];
+let allCombine = God.concat(name, hero);
+console.log(allCombine);
