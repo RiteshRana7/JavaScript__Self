@@ -44,12 +44,13 @@
 // let num = [1,2,3,4,5];
 //  value = num.slice(1,3);
 // console.log(value);
+// let name = ["Rahul","nitin","Munna","Rohit","Raju","mohan"];
+// val = name.slice(1,4);
+// console.log(name);
+// console.log(val);
 
-let name = ["Rahul","nitin","Munna","Rohit"];
-val = name.slice(1,4);
-console.log(name);
-console.log(val);
-let name = ["Rahul","nitin","Munna","Rohit","Raju","mohan"];
-val = name.slice(1,4);
-console.log(name);
-console.log(val);
+let fruits = ["Manog","litchi","Graps","Orange"];
+let price = [60,70,100,40];
+let fruitsPrice = fruits.concat(price);
+
+console.log(fruitsPrice);
