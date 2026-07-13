@@ -55,8 +55,18 @@
 
 // console.log(fruitsPrice);
 
-let God = ["Ram","Mahadev","Laxman","Hanuman"];
-let hero = ["Thor","Spiderman","Krish"];
-let name =["Ritesh","Vishal","Nitin","Ganesh"];
-let allCombine = God.concat(name, hero);
-console.log(allCombine);
+// let God = ["Ram","Mahadev","Laxman","Hanuman"];
+// let hero = ["Thor","Spiderman","Krish"];
+// let name =["Ritesh","Vishal","Nitin","Ganesh"];
+// let allCombine = God.concat(name, hero);
+// console.log(allCombine);
+
+
+// Function in js .......
+
+ function myFunction(){
+    console.log("Welcome to javaScript !");
+    console.log("I Learn in javaScript");
+    console.log("I sarted function in javaScript");
+}
+myFunction();
