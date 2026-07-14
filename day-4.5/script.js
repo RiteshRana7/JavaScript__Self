@@ -64,9 +64,21 @@
 
 // Function in js .......
 
- function myFunction(){
-    console.log("Welcome to javaScript !");
-    console.log("I Learn in javaScript");
-    console.log("I sarted function in javaScript");
+//  function myFunction(){
+//     console.log("Welcome to javaScript !");
+//     console.log("I Learn in javaScript");
+//     console.log("I sarted function in javaScript");
+// }
+// myFunction();
+
+// function theFunction(msg){
+//     console.log(msg);
+// }
+// theFunction("I love javaScript");
+
+function sum(x,y){
+    add = x,y;
+    return add;
 }
-myFunction();
+let value = (3,5);
+console.log(value);
