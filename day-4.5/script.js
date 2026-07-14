@@ -89,3 +89,7 @@
 // }
 // val = 40 + 10;
 // console.log(val);
+
+const arrowSum = ( a,b) =>{
+    console.log(a+b);
+}   
