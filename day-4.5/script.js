@@ -90,6 +90,24 @@
 // val = 40 + 10;
 // console.log(val);
 
-const arrowSum = ( a,b) =>{
-    console.log(a+b);
-}   
+// Sum in Arrow function => .........
+
+// const arrowSum = ( a,b) =>{
+//     console.log(a+b);
+// }   
+
+// multiplication in arrow function => ......
+// const arrowMul = (x,y) => {
+//     console.log(x*y)
+// }
+// console.log(arrowMul);
+
+function countVowls(str){
+    let count = 0;
+    for(const char of str){
+        if( char === "a" || char === "e" || char === "i" || char ==="0" ||char ==="u"){
+            count++;
+        }
+    }
+    console.log(count);
+}
