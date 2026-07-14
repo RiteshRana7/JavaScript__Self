@@ -76,11 +76,16 @@
 // }
 // theFunction("I love javaScript");
 
+// function sum(x,y){
+//     add = x,y;
+//     return add;
+// }
+// let value = (3,5);
+// console.log(value);
 
-
-function PrintSum(a,b){
-    s = a,b;
-    return s;
-}
-val = 40 + 10;
-console.log(val);
+// function PrintSum(a,b){
+//     s = a,b;
+//     return s;
+// }
+// val = 40 + 10;
+// console.log(val);
