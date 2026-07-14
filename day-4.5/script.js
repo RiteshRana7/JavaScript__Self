@@ -76,9 +76,11 @@
 // }
 // theFunction("I love javaScript");
 
-function sum(x,y){
-    add = x,y;
-    return add;
+
+
+function PrintSum(a,b){
+    s = a,b;
+    return s;
 }
-let value = (3,5);
-console.log(value);
+val = 40 + 10;
+console.log(val);
