@@ -34,7 +34,13 @@
 //     console.log(nums*nums) ;
 // });
 
-let char = [10,20,30,40,50];
-char.forEach((val) =>{
-    console.log(val +5);
+// let char = [10,20,30,40,50];
+// char.forEach((val) =>{
+//     console.log(val +5);
+// });
+//  map in function......
+
+let arr = [10,100,1000];
+arr.map((val) =>{
+    console.log(val);
 });
