@@ -5,7 +5,12 @@
 // });
 
 
-let fruts = ["manog","apple","graps","orange","banana"];
-fruts.forEach(function frut(value){
-    console.log(value);
+// let fruts = ["manog","apple","graps","orange","banana"];
+// fruts.forEach(function frut(value){
+//     console.log(value);
+// });
+
+let char = [10,20,30,40,50,60,70,80,90,100];
+char.forEach(function c(v){
+    console.log(v);
 });
