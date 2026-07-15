@@ -19,7 +19,22 @@
 
 // forEach in arrow function....
 
-let arr = ["pune","delhi","goa","surat","mumbai"];
-arr.forEach((val) =>{
-    console.log(val.toUpperCase());
-})
+// let arr = ["pune","delhi","goa","surat","mumbai"];
+// arr.forEach((val) =>{
+//     console.log(val.toUpperCase());
+// })
+
+// let name = ["Ritesh","Rahul","vishal","raju","sidhu"];
+// name.function((value) =>{
+//     console.log(value);
+// });
+
+// let nums = [1,2,3,4,5,6];
+// nums.forEach((nums) =>{
+//     console.log(nums*nums) ;
+// });
+
+let char = [10,20,30,40,50];
+char.forEach((val) =>{
+    console.log(val +5);
+});
