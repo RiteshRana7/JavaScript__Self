@@ -40,7 +40,13 @@
 // });
 //  map in function......
 
-let arr = [10,100,1000];
-arr.map((val) =>{
-    console.log(val);
-});
+// let arr = [10,100,1000];
+// arr.map((val) =>{
+//     console.log(val);
+// });
+
+ let name = ["Ritesh","Rahul","vishal","raju","sidhu","Manisha"];
+ name.function((value) =>{
+     console.log(value);
+ });
+
