@@ -82,8 +82,14 @@
 // console.log(output);
 
 
-let marks = [80,92,58,91,89,95];
- let output = marks.filter((val)=>{
-    return val > 90;
+// let marks = [80,92,58,91,89,95];
+//  let output = marks.filter((val)=>{
+//     return val > 90;
+// });
+// console.log(output);
+
+let num = [60,89,58,98,48,86];
+const value = num.filter((val)=>{
+    return val > 80;
 });
-console.log(output);
+console.log(value);
