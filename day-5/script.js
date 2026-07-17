@@ -75,8 +75,15 @@
 // });
 // console.log(value);
 
-let arr = [2,3,4,5];
-const output = arr.reduce((res, crr)=>{
-    return res * crr;
+// let arr = [2,3,4,5];
+// const output = arr.reduce((res, crr)=>{
+//     return res * crr;
+// });
+// console.log(output);
+
+
+let marks = [80,92,58,91,89,95];
+ let output = marks.filter((val)=>{
+    return val > 90;
 });
 console.log(output);
