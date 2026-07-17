@@ -69,8 +69,14 @@
 // });
 // console.log(output);
 
-let array = [10,20,30,40,50];
-const value = array.reduce((res, crr) =>{
-    return res - crr;
+// let array = [10,20,30,40,50];
+// const value = array.reduce((res, crr) =>{
+//     return res - crr;
+// });
+// console.log(value);
+
+let arr = [2,3,4,5];
+const output = arr.reduce((res, crr)=>{
+    return res * crr;
 });
-console.log(value);
+console.log(output);
