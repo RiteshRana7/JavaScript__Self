@@ -62,9 +62,15 @@
 // });
 // console.log(newarray);
 
-let arr = [1,2,3,4];
+// let arr = [1,2,3,4];
 
-const output = arr.reduce((res, crr) =>{
-    return res + crr;
+// const output = arr.reduce((res, crr) =>{
+//     return res + crr;
+// });
+// console.log(output);
+
+let array = [10,20,30,40,50];
+const value = array.reduce((res, crr) =>{
+    return res - crr;
 });
-console.log(output);
+console.log(value);
