@@ -50,8 +50,14 @@
 //      console.log(value);
 //  });
 
-let num = [1,2,3,4,5,6,7,8,9,10];
-let newarr = num.filter((val) => {
-    return val % 2 === 0;
+// let num = [1,2,3,4,5,6,7,8,9,10];
+// let newarr = num.filter((val) => {
+//     return val % 2 === 0;
+// });
+// console.log(newarr);
+
+let number = [1,2,3,4,5,6,7,8,9,10];
+let newarray = number.filter((value) =>{
+    return value % 2 !=0;
 });
-console.log(newarr);
+console.log(newarray);
