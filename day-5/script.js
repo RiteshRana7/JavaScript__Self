@@ -45,8 +45,13 @@
 //     console.log(val);
 // });
 
- let name = ["Ritesh","Rahul","vishal","raju","sidhu","Manisha"];
- name.function((value) =>{
-     console.log(value);
- });
+//  let name = ["Ritesh","Rahul","vishal","raju","sidhu","Manisha"];
+//  name.function((value) =>{
+//      console.log(value);
+//  });
 
+let num = [1,2,3,4,5,6,7,8,9,10];
+let newarr = num.filter((val) => {
+    return val % 2 === 0;
+});
+console.log(newarr);
