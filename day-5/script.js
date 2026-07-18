@@ -88,8 +88,20 @@
 // });
 // console.log(output);
 
-let num = [60,89,58,98,48,86];
-const value = num.filter((val)=>{
-    return val > 80;
-});
-console.log(value);
+// let num = [60,89,58,98,48,86];
+// const value = num.filter((val)=>{
+//     return val > 80;
+// });
+// console.log(value);
+
+// let n = prompt("Enter a number");
+// let arr = [];
+// for(let i = 1; i<n ; i++){
+//     arr[i-1] = i;
+// }
+
+let number = prompt("Enter a number");
+let arr = [];
+for(let i = 0; i<number;i++){
+    arr[i-1] = i;
+}
