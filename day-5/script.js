@@ -105,3 +105,8 @@ let arr = [];
 for(let i = 0; i<number;i++){
     arr[i-1] = i;
 }
+ let number = [1,2,3,4,5,6,7,8,9,10];
+ let newarray = number.filter((value) =>{
+     return value % 2 !=0;
+ });
+ console.log(newarray);
