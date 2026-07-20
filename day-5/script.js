@@ -100,13 +100,27 @@
 //     arr[i-1] = i;
 // }
 
-let number = prompt("Enter a number");
-let arr = [];
-for(let i = 0; i<number;i++){
-    arr[i-1] = i;
-}
- let number = [1,2,3,4,5,6,7,8,9,10];
- let newarray = number.filter((value) =>{
-     return value % 2 !=0;
- });
- console.log(newarray);
+// let number = prompt("Enter a number");
+// let arr = [];
+// for(let i = 0; i<number;i++){
+//     arr[i-1] = i;
+// }
+//  let number = [1,2,3,4,5,6,7,8,9,10];
+//  let newarray = number.filter((value) =>{
+//      return value % 2 !=0;
+//  });
+//  console.log(newarray);
+
+// let arr = [1,2,3,4];
+
+// const output = arr.reduce((res, crr) =>{
+//     return res + crr;
+// });
+// console.log(output);
+
+let array = [1,2,3,4,5,6,7,8,9,10];
+
+const output = array.reduce((res, crr)=>{
+    return res * crr;
+});
+console.log(output);
