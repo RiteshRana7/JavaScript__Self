@@ -118,9 +118,9 @@
 // });
 // console.log(output);
 
-let array = [1,2,3,4,5,6,7,8,9,10];
+// let array = [1,2,3,4,5,6,7,8,9,10];
 
-const output = array.reduce((res, crr)=>{
-    return res * crr;
-});
-console.log(output);
+// const output = array.reduce((res, crr)=>{
+//     return res * crr;
+// });
+// console.log(output);
