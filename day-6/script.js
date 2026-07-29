@@ -9,6 +9,9 @@
 // console.log(heading);
 // console.dir(heading)
 
-let head = document.getElementsByClassName("head");
-console.log(head);
-console.dir(head);
+// let head = document.getElementsByClassName("head");
+// console.log(head);
+// console.dir(head);
+
+let elements = document.querySelector("p");
+console.dir(elements);
