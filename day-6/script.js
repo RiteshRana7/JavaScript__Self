@@ -13,5 +13,11 @@
 // console.log(head);
 // console.dir(head);
 
-let elements = document.querySelector("p");
-console.dir(elements);
+// let elements = document.querySelector("p");
+// console.dir(elements);
+
+// let firstel = document.querySelector("#myId");
+// console.dir(firstel); 
+
+let div = document.querySelector("div");
+console.dir(div);
