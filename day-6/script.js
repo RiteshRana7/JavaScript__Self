@@ -19,5 +19,10 @@
 // let firstel = document.querySelector("#myId");
 // console.dir(firstel); 
 
-let div = document.querySelector("div");
-console.dir(div);
+// let div = document.querySelector("div");
+// console.dir(div);
+
+let h5 = document.querySelector("h5");
+console.dir(h5);
+
+h5.innerText = h5.innerText + " apna collage";
