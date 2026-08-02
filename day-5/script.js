@@ -131,3 +131,9 @@
 //     return val % 2 === 0;
 // });
 // console.log(array);
+
+// let array = [10,20,30,40,50];
+// const value = array.reduce((res, crr) =>{
+//     return res - crr;
+// });
+// console.log(value);
