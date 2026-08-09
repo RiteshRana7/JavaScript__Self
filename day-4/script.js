@@ -119,3 +119,8 @@
 // console.log(name);
 
 
+// for(let val of marks){
+//     sum += val;
+// }
+// let avg = sum /= marks.length;
+// console.log(`average marks of the class ${avg}`);
