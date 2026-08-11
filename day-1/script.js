@@ -82,7 +82,7 @@
 // let result = age >= 18 ? "adult" : "not adult";
 // console.log(result);
 
-
+// practies question.............. 
 //prompt value checked 
  
 // let num = prompt ("Enter your number");
@@ -93,8 +93,4 @@
 // else{
 //     console.log(num, "is a not multiplay of 5");
 // }
-
-// practies question.............. 
-
-
    
